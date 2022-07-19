@@ -1,0 +1,140 @@
+body {
+    background-attachment: fixed;
+    background-image: url("pics/backgound.svg");
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: 40px;
+}
+
+nav ul {
+    text-align: left;
+    list-style-type: none;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 10px;
+    color: black;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-style: normal;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #389bf8;
+}
+
+img {
+    border-radius: 10%;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, .5);
+}
+
+article {
+    margin: auto;
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: white;
+}
+
+aside {
+    float: right;
+    font-size: 30px;
+    font-style: italic;
+    width: 300px;
+    margin: 10px;
+}
+
+.left {
+    background-color: #7cdfecc2;
+    padding: 35px;
+    display: table-cell;
+}
+
+.right {
+    background-color: #7fbefda8;
+    padding: 35px;
+    display: table-cell;
+}
+
+table {
+    border: 3px solid grey;
+    text-align: center;
+    font-style: italic;
+}
+
+tr,
+td,
+th {
+    padding: 10px
+}
+
+.empty {
+    font-style: normal;
+}
+
+.day {
+    background-color: #7fbefde1;
+}
+
+.lecture {
+    background-color: #1EA6E6;
+}
+
+.practice {
+    background-color: #74D4FF;
+}
+
+.seminar {
+    background-color: #2E83AB;
+}
+
+.consultation {
+    background-color: #0D4A66;
+}
+
+.physical-education {
+    background-color: #16bbd1;
+}
+
+.legend {
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border-bottom: 40px;
+    padding-bottom: 60px;
+}
+
+.legend li {
+    float: left;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#profile-picture {
+    margin: 0px 30px 30px 0px;
+    float: left;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
